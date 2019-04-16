@@ -23,6 +23,13 @@ def clean_columns(df):
                   replace('/','') for column in df.columns]
     return(df)
 
+def series_to_df(series):
+    df = pd.DataFrame()
+    for d in series:
+        df = pd.concat([df, d], axis=0, sort=True)
+    df.reset_index(inplace=True, drop=True)
+    return(df)
+
 def log_print(message):
     """
     A function I just like using instead of print()
