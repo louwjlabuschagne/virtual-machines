@@ -1,0 +1,7 @@
+FILESYSTEM,1KBLOCKS,USED,AVAILABLE,USE_percentage_,MOUNTED_ON
+udev,499068,0,499068,0.0,/dev
+tmpfs,102044,2936,99108,0.03,/run
+/dev/sda1,10253588,1090856,8622164,0.12,/
+tmpfs,510208,0,510208,0.0,/dev/shm
+tmpfs,5120,0,5120,0.0,/run/lock
+tmpfs,510208,0,510208,0.0,/sys/fs/cgroup
